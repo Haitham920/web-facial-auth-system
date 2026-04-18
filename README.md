@@ -91,15 +91,25 @@ http://127.0.0.1:5000
 
 ## Usage
 ### Enroll a user
+
 i) Go to: 
+
 http://127.0.0.1:5000/enroll 
+
 ii) Enter username 
+
 iii) Capture face
+
 ### Login
+
 i) Go to:
+
 http://127.0.0.1:5000
+
 ii) Enter username
+
 iii) Capture face
+
 iv) Access granted/denied
 
 ---
@@ -109,32 +119,47 @@ iv) Access granted/denied
 Screenshots are available in the screenshots/ folder, including:
 
 Login page
+
 Enrollment page
+
 Successful authentication
+
 Failed authentication
 
 ---
 
 ## Security Features
+
 Biometric authentication using facial recognition
+
 User-specific identity binding
+
 Default-deny access model
+
 Logging of authentication attempts
 
 ---
 
 ## Limitations
+
 Depends on lighting conditions
+
 Single-factor biometric authentication
+
 Not production-ready (development server)
 
 ---
 
 ## Future Improvements
+
 Multi-factor authentication (MFA)
+
 Liveness detection (anti-spoofing)
+
 Improved UI/UX
+
 Deployment on cloud
+
 Real-time video authentication
 
 ---
