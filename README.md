@@ -70,6 +70,7 @@ web-facial-auth-system/
 
 ### 1. Clone the repository
 git clone https://github.com/Haitham920/web-facial-auth-system.git
+
 cd web-facial-auth-system
 ### 2. Create virtual environment
 python -m venv venv
