@@ -1,4 +1,5 @@
 from flask import Blueprint, request, render_template, redirect, session
+
 import cv2
 from services.face_service import extract_embedding, compare_faces
 from services.auth_service import get_user_embeddings, log_attempt
@@ -42,6 +43,9 @@ def login():
 
     user_id, known_embeddings = get_user_embeddings(username)
     match, score = compare_faces(known_embeddings, embedding)
+    print("Match:", match)
+    print("Score:", score)
+    print("Stored embeddings:", len(known_embeddings))
 
     if match:
         session["user"] = username

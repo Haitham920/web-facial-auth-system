@@ -45,4 +45,4 @@ def enroll():
         
         return "Enrollment failed: No face captured"
 
-    return render_template("enroll.html")
+    return render_template("enroll.html", message="✅ User enrolled successfully!", color="green")
