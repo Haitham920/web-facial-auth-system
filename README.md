@@ -33,6 +33,7 @@ The system extracts facial features, converts them into numerical representation
 ---
 
 ##  Project Structure
+```text
 web-facial-auth-system/
 ├── app/
 │   ├── main.py
@@ -49,6 +50,7 @@ web-facial-auth-system/
 ├── docs/
 ├── requirements.txt
 └── README.md
+```
 
 
 ---
