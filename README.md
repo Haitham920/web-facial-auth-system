@@ -34,16 +34,14 @@ The system extracts facial features, converts them into numerical representation
 
 ##  Project Structure
 web-facial-auth-system/
-│
 ├── app/
-│ ├── main.py
-│ ├── database.py
-│ ├── routes/
-│ ├── services/
-│ ├── templates/
-│ ├── static/
-│ └── instance/
-│
+│   ├── main.py
+│   ├── database.py
+│   ├── routes/
+│   ├── services/
+│   ├── templates/
+│   ├── static/
+│   └── instance/
 ├── data/
 ├── models/
 ├── tests/
